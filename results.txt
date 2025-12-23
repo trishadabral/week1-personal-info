@@ -1,0 +1,22 @@
+John Smith
+Average: 88.33
+Grade: B
+Comment: Very Good!
+
+Sarah Johnson
+Average: 81.33
+Grade: B
+Comment: Very Good!
+
+Alex Brown
+Average: 93.33
+Grade: A
+Comment: Excellent performance!
+
+-------------------------
+Class Statistics
+-------------------------
+Total Students: 3
+Class Average: 87.67
+Highest Average: 93.33
+Lowest Average: 81.33

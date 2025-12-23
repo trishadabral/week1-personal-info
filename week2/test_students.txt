@@ -1,0 +1,19 @@
+
+---
+
+## 🧪 2️⃣ `test_students.txt` (Sample Input)
+
+```text
+3
+John Smith
+85
+92
+88
+Sarah Johnson
+78
+81
+85
+Alex Brown
+90
+94
+96
