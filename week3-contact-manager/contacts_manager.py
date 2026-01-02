@@ -179,19 +179,27 @@ def export_to_csv(contacts):
         print(f"❌ Error exporting contacts: {e}")
 
 def view_statistics(contacts):
-    """View statistics"""
     print("\n--- CONTACT STATISTICS ---")
     print(f"Total Contacts: {len(contacts)}\n")
 
     groups = {}
     for info in contacts.values():
-        groups[info['group']] = groups.get(info['group'], 0) + 1
+        group = info.get('group', 'Other')
+        groups[group] = groups.get(group, 0) + 1
 
     print("Contacts by Group:")
     for group, count in groups.items():
         print(f"  {group}: {count} contact(s)")
 
-    recent = [name for name, info in contacts.items() if (datetime.now() - datetime.fromisoformat(info['updated_at'])).days <= 7]
+    recent = []
+    for name, info in contacts.items():
+        updated_at = info.get('updated_at')
+        if updated_at:
+            try:
+                if (datetime.now() - datetime.fromisoformat(updated_at)).days <= 7:
+                    recent.append(name)
+            except Exception:
+                pass  # skip malformed dates
     print(f"\nRecently Updated (last 7 days): {len(recent)}")
 
 # ------------------ MENU SYSTEM ------------------
