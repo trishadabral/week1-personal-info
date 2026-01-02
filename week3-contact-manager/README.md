@@ -36,14 +36,14 @@ It demonstrates how to build a **Contact Management System** using Python concep
 ---
 
 ## 📂 Project Structure
----
 week3-contact-manager/
-│── contacts_manager.py      # Main program with all functions & menu
-│── contacts_data.json       # Data persistence file (auto-created)
-│── test_contacts.py         # Unit tests for validation & CRUD functions
-│── README.md                 # Documentation & usage guide
-│── requirements.txt           # Dependencies (standard libraries only)
-└── .gitignore               # Ignore unnecessary files
+|-- contacts_manager.py   # Main program with all functions & menu
+|-- contacts_data.json    # Data persistence file (auto-created)
+|-- test_contacts.py      # Unit tests for validation & CRUD functions
+|-- README.md             # Documentation & usage guide
+|-- requirements.txt      # Dependencies (standard libraries only)
+`-- .gitignore            # Ignore unnecessary files
+
 
 ---
 
