@@ -36,6 +36,19 @@ week3-contact-manager/
 └── .gitignore               # Ignore unnecessary files
 
 ---
+##  Testing
+Run unit tests with:
+
+bash
+python -m unittest test_contacts.py
+Test Coverage
+Phone/email validation
+
+Add/search/update/delete contacts
+
+File save/load operations
+
+Edge cases (duplicate names, invalid phone numbers, empty input)
 
 ## ⚙️ Installation & Setup
 Clone the repository and run the program:
@@ -63,16 +76,3 @@ Enter email (optional): john@example.com
 Enter address (optional): 123 Main Street
 Enter group (Friends/Work/Family/Other): Friends
 ✅ Contact 'John Doe' added successfully!
-## Testing
-Run unit tests with:
-
-bash
-python -m unittest test_contacts.py
-Test Coverage
-Phone/email validation
-
-Add/search/update/delete contacts
-
-File save/load operations
-
-Edge cases (duplicate names, invalid phone numbers, empty input)
