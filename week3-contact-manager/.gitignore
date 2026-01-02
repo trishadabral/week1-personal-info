@@ -1,0 +1,12 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files
+contacts_data.json
+contacts_backup.json
+
+# OS files
+.DS_Store
+Thumbs.db

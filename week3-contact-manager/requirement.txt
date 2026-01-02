@@ -1,0 +1,10 @@
+# Contact Management System - Week 3 Project
+# No external dependencies required.
+# Uses only Python standard libraries:
+# - json
+# - re
+# - datetime
+# - csv
+# - unittest
+
+# Tested with Python 3.10+
