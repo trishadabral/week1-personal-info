@@ -37,13 +37,12 @@ It demonstrates how to build a **Contact Management System** using Python concep
 
 ## 📂 Project Structure
 week3-contact-manager/
-|-- contacts_manager.py   # Main program with all functions & menu
-|-- contacts_data.json    # Data persistence file (auto-created)
-|-- test_contacts.py      # Unit tests for validation & CRUD functions
-|-- README.md             # Documentation & usage guide
-|-- requirements.txt      # Dependencies (standard libraries only)
-`-- .gitignore            # Ignore unnecessary files
-
+│--contacts_manager.py      # Main program with all functions & menu
+│-- contacts_data.json       # Data persistence file (auto-created)
+│-- test_contacts.py         # Unit tests for validation & CRUD functions
+│-- README.md                 # Documentation & usage guide
+│-- requirements.txt           # Dependencies (standard libraries only)
+└── .gitignore               # Ignore unnecessary files
 
 ---
 
@@ -51,31 +50,6 @@ week3-contact-manager/
 Clone the repository and run the program:
 
 ```bash
-git clone https://github.com/yourusername/week3-contact-manager.git
+git clone https://github.com/trishadabral/week1-personal-info/tree/main/week3-contact-manager
 cd week3-contact-manager
 python contacts_manager.py
-🖥️ Usage
-Run the program and follow the menu prompts:
-
-Code
-==============================
-          MAIN MENU
-==============================
-1. Add New Contact
-2. Search Contact
-3. Update Contact
-4. Delete Contact
-5. View All Contacts
-6. Export to CSV
-7. View Statistics
-8. Exit
-==============================
-Example Interaction
-Code
---- ADD NEW CONTACT ---
-Enter contact name: John Doe
-Enter phone number: +1 (234) 567-8900
-Enter email (optional): john@example.com
-Enter address (optional): 123 Main Street
-Enter group (Friends/Work/Family/Other): Friends
-✅ Contact 'John Doe' added successfully!
