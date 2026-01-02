@@ -27,3 +27,52 @@ It is a **Contact Management System** that allows users to add, search, update, 
 ---
 
 ## 📂 Project Structure
+week3-contact-manager/
+│── contacts_manager.py      # Main program
+│── contacts_data.json       # Data persistence file
+│── test_contacts.py         # Unit tests
+│── README.md                 # Documentation
+│── requirements.txt          # Dependencies
+└── .gitignore               # Ignore unnecessary files
+
+---
+
+## ⚙️ Installation & Setup
+Clone the repository and run the program:
+
+```bash
+git clone https://github.com/yourusername/week3-contact-manager.git
+cd week3-contact-manager
+python contacts_manager.py
+==============================
+          MAIN MENU
+==============================
+1. Add New Contact
+2. Search Contact
+3. Update Contact
+4. Delete Contact
+5. View All Contacts
+6. Export to CSV
+7. View Statistics
+8. Exit
+==============================
+--- ADD NEW CONTACT ---
+Enter contact name: John Doe
+Enter phone number: +1 (234) 567-8900
+Enter email (optional): john@example.com
+Enter address (optional): 123 Main Street
+Enter group (Friends/Work/Family/Other): Friends
+✅ Contact 'John Doe' added successfully!
+## Testing
+Run unit tests with:
+
+bash
+python -m unittest test_contacts.py
+Test Coverage
+Phone/email validation
+
+Add/search/update/delete contacts
+
+File save/load operations
+
+Edge cases (duplicate names, invalid phone numbers, empty input)
