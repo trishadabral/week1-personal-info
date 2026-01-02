@@ -36,6 +36,7 @@ It demonstrates how to build a **Contact Management System** using Python concep
 ---
 
 ## 📂 Project Structure
+---
 week3-contact-manager/
 │── contacts_manager.py      # Main program with all functions & menu
 │── contacts_data.json       # Data persistence file (auto-created)
