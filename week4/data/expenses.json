@@ -1,0 +1,20 @@
+[
+    {
+        "date": "2026-01-02",
+        "amount": 4000.0,
+        "category": "grocery",
+        "description": "abc efg"
+    },
+    {
+        "date": "2026-01-10",
+        "amount": 900.0,
+        "category": "car",
+        "description": "car cleaning"
+    },
+    {
+        "date": "2026-01-04",
+        "amount": 800.0,
+        "category": "hair",
+        "description": "hair cut"
+    }
+]
