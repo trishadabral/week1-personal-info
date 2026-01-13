@@ -1,0 +1,12 @@
+{
+    "1001": {
+        "name": "Trisha",
+        "member_id": "1001",
+        "borrowed_books": []
+    },
+    "1002": {
+        "name": "Tan",
+        "member_id": "1002",
+        "borrowed_books": []
+    }
+}

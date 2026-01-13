@@ -1,0 +1,38 @@
+{
+    "07896x": {
+        "title": "Harry Potter And The Fire of Goblet",
+        "author": "J.K Rowling",
+        "isbn": "07896x",
+        "year": "2000",
+        "available": true,
+        "borrowed_by": null,
+        "due_date": null
+    },
+    "89887683": {
+        "title": "Harry Potter and the Philosopher's stone",
+        "author": "J.k Rowling",
+        "isbn": "89887683",
+        "year": "1998",
+        "available": true,
+        "borrowed_by": null,
+        "due_date": null
+    },
+    "283746484": {
+        "title": "the hobbit",
+        "author": "J.R.R tolkien",
+        "isbn": "283746484",
+        "year": "1937",
+        "available": true,
+        "borrowed_by": null,
+        "due_date": null
+    },
+    "875467": {
+        "title": "the lord of the rings",
+        "author": "J.R.R Tolkien",
+        "isbn": "875467",
+        "year": "1957",
+        "available": true,
+        "borrowed_by": null,
+        "due_date": null
+    }
+}

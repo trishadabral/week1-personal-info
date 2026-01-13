@@ -1,0 +1,33 @@
+# ------------------------------
+# Python cache files
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# ------------------------------
+# Virtual environment
+# ------------------------------
+venv/
+.env/
+
+# ------------------------------
+# Data files (generated at runtime)
+# ------------------------------
+books.json
+members.json
+
+# (Keep expenses.json tracked if required by submission)
+# data/expenses.json
+
+# ------------------------------
+# OS specific files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# IDE / Editor files
+# ------------------------------
+.vscode/
+.idea/
