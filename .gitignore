@@ -1,0 +1,17 @@
+Python
+
+pycache/
+*.pyc
+
+Environment
+
+.env
+
+Cache data
+
+data/cache/*.json
+
+OS files
+
+.DS_Store
+Thumbs.db
