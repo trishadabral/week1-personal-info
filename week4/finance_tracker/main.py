@@ -34,7 +34,6 @@ class FinanceTracker:
                 item["description"]
             )
             self.manager.add_expense(expense)
-
     # ---------- OPTION 1 ----------
     def add_expense(self):
         print("\nADD NEW EXPENSE")
